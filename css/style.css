@@ -138,7 +138,6 @@ header{
 
 /*first section footer*/
 .first-container-foot{
-    height: 500px;
     min-height: 500px;
     display: flex; 
     align-items: flex-end;
