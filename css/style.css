@@ -48,20 +48,57 @@ header{
 
 /*first section*/
 
-.first-section{
+.first-container{
     background-color: rgb(64, 64, 248);
     min-height: 500px;
     display: flex; 
     align-items: flex-start;
     align-items:center;
     justify-content: center; 
+    padding: 50px;
 
 }
 
-.first-section-main{
+.first-section{
     min-height: 400px;
     min-width: 700px;
     background-color: rgb(252, 209, 216);
     border-style: dotted;
     border-width: 2px;
 }
+
+/*second and fourth section*/
+
+.second-container{
+    background-color: rgb(245, 56, 56);
+    min-height: 500px;
+    display: flex; 
+    align-items: flex-start;
+    align-items:center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.second-section{
+    display: flex;
+    width: 1200px;
+
+}
+
+.left-content{
+    min-height: 400px;
+    width: 60%;
+    background-color: rgb(123, 211, 42);
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.right-content{
+    height: 500px;
+    min-height: 400px;
+    flex-grow: 1;
+    background-color: rgb(252, 209, 216);
+    border-style: dotted;
+    border-width: 2px; 
+}
+
