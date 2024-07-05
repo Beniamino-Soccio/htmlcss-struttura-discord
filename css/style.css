@@ -191,7 +191,7 @@ header{
 
 .second-content-foot{
     display: flex;
-    height: 150px;
+    height: 100px;
     width: 1200px;
     background-color: #00c3ff;
     border-style: dotted;
