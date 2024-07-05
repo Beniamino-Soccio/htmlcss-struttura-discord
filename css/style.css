@@ -67,9 +67,9 @@ header{
     border-width: 2px;
 }
 
-/*second and fourth section*/
+/*second third fourth section*/
 
-.second-container{
+.info-container{
     background-color: rgb(245, 56, 56);
     min-height: 500px;
     display: flex; 
@@ -79,7 +79,7 @@ header{
     padding: 50px;
 }
 
-.second-section{
+.info-section{
     display: flex;
     width: 1200px;
 
@@ -100,5 +100,17 @@ header{
     background-color: rgb(252, 209, 216);
     border-style: dotted;
     border-width: 2px; 
+}
+
+.bgc-white{
+    background-color: #fff;
+}
+
+.bgc-black{
+    background-color: #000;
+}
+
+.reverse{
+    flex-direction: row-reverse;
 }
 
