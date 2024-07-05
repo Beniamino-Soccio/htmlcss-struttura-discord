@@ -3,4 +3,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 24px;
+}
+
+/*Generics*/
+
+header{
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Header*/
+
+.header-container{
+    display: flex;
+    width: 1200px;
+
+}
+
+.header-container > *{
+    background-color: goldenrod;
+    border-style: dotted;
+    border-width: 1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link{
+    flex-grow: 1;
+    min-width: 600px;   
+}
+
+.logo, .login{
+    width: 300px;
+    min-width: 300px;   
 }
